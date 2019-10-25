@@ -4,4 +4,4 @@ jobs:
     steps:
       - checkout
 
-      - run: echo "TODO: set up CircleCI build"
+      - run: "echo 'TODO: set up CircleCI build'"
