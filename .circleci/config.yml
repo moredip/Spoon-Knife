@@ -4,11 +4,14 @@ jobs:
     docker:
       - image: circleci/buildpack-deps
     steps:
-      - run: |
-        echo "placeholder for build job"
+      - run:
+          command: |
+            echo "placeholder for build job"
   preview_build:
     docker:
       - image: circleci/buildpack-deps
     steps:
       - run: |
-        echo "building a preview build named: ${PREVIEW_NAME}"
+      - run:
+          command: |
+            echo "building a preview build named: ${PREVIEW_NAME}"
