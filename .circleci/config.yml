@@ -7,7 +7,7 @@ jobs:
       - run:
           command: |
             echo "placeholder for build job"
-  preview_build:
+  preview-build:
     docker:
       - image: circleci/buildpack-deps
     steps:
