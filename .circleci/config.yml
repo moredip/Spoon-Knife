@@ -1,0 +1,6 @@
+version: 2
+jobs:
+  preview_build:
+    working_directory: /
+    steps:
+      - run: echo "building a preview build named: ${PREVIEW_NAME}"
